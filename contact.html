@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Amruta Kothawade">
         <meta name="Description" content="Contact Information for TFV">
-        <title>Contact Us-TFV</title>
+        <title>Contact Us</title>
         <link rel="stylesheet" href="main.css" type="text/css">
+        <script src="main.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -52,7 +53,8 @@
         </p>
         <main class="main">
             <article class="main__article">
-                <h3>Our Location</h3>
+                <hr>
+                <h3 class="location__h3">Our Location</h3>
                 <p>
                     <address>
                         Fashion Vogue Store<br>
@@ -64,6 +66,7 @@
                     </address>
                 </p>
                 </article>
+                <hr>
         <article class="main__article contact">
         <h2 class="contact__h2">Our Contact Form</h2>
         <form action="https://httpbin.org/get" method="get" class="contact__form">
@@ -94,7 +97,7 @@
         </p>
         <footer class="footer">
             <p>
-                <span class="nowrap">Copyright &copy;</span>
+                <span class="nowrap">Copyright &copy; <time id="year"></time> </span>
                 <span class="nowrap"><a href="about.html">The Fashion Vogue</a></span>
             </p> 
         </footer> 
